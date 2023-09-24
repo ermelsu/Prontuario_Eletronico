@@ -15,14 +15,14 @@ legend{
 }
 .box{
     color: white;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(64, 41, 84, 0.8);
     padding: 15px;
     border-radius: 15px;
-    width: 50%;
+    width: 500px;
 }
 .inputbox{
     position: relative;
