@@ -57,7 +57,7 @@ legend{
     transition: .2s;
 }
 .inputUser:focus ~ .Label_Input,
-.inputUser:active ~ .Label_Input{
+.inputUser:valid ~ .Label_Input{
     top: -10px;
     font-size: 12px;
     color: pink;
