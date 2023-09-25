@@ -36,18 +36,6 @@ legend{
     color: white;
     font-size: 12px;
     width: 100%;
-    letter-spacing: 1px;
-}
-.inputUser_data{
-    position: absolute;
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    color: white;
-    font-size: 15px;
-    width: 30%;
-    letter-spacing: 1px;
 }
 .Label_Input{
     position: absolute;
