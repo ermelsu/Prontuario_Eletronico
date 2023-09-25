@@ -62,3 +62,23 @@ legend{
     font-size: 12px;
     color: pink;
 }
+#datas{
+    border: none;
+    padding: 10px;
+    border-radius: 9px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right, rgb(221, 195, 205), rgb(126, 78, 133));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-image: linear-gradient(to right, rgb(218, 161, 183), rgb(113, 42, 124));
+}
