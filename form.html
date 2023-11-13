@@ -8,88 +8,120 @@
 
 </head>
 <body>
-    <div class="box">
-            <fieldset>
-                <legend><b>Identificação do Paciente</b></legend>
-                <br>
-                <!-- NOME -->
-                <div class="inputbox">
-                    <input type="text" name="nome" id="nome" class="inputUser" required>
-                    <label for="nome" class="Label_Input">Nome</label>
-                </div>
-                <br><br>
-                <!-- NOME SOCIAL -->
-                <div class="inputbox">
-                    <input type="text" name="nome_social" id="nome_social" class="inputUser" required>
-                    <label for="nome_social" class="Label_Input">Nome social</label>
-                </div>
-                <br><br>
-                <!--  DATA DE NASCIMENTO -->
-                <label for="data_nascimento">Data de Nascimento</label><br>
-                <input type="date" name="data_nascimento" id="datas" required>
-                <!-- SEXO -->
-                <p>Sexo: </p>
-                             <!-- female -->
-                <input type="radio" id="female" nome="genero" value="Female" required>
-                <label for="female">Feminino</label>
-                             <!-- male -->
-                <input type="radio" id="male" nome="genero" value="male" required>
-                <label for="male">Masculino</label>
-                             <!-- other -->
-                <input type="radio" id="other" nome="genero" value="other" required>
-                <label for="other">Other</label>
+    <div class="container">
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Identificação do Paciente</b></legend>
+                    <br>
+                    <!-- NOME -->
+                    <div class="inputbox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="Label_Input">Nome</label>
+                    </div>
+                    <br><br>
+                    <!-- NOME SOCIAL -->
+                    <div class="inputbox">
+                        <input type="text" name="nome_social" id="nome_social" class="inputUser" required>
+                        <label for="nome_social" class="Label_Input">Nome social</label>
+                    </div>
+                    <br><br>
+                    <!--  DATA DE NASCIMENTO -->
+                    <label for="data_nascimento">Data de Nascimento</label><br>
+                    <input type="date" name="data_nascimento" id="datas" required>
+                    <!-- SEXO -->
+                    <p>Sexo: </p>
+                                <!-- female -->
+                    <input type="radio" id="female" nome="genero" value="Female" required>
+                    <label for="female">Feminino</label>
+                                <!-- male -->
+                    <input type="radio" id="male" nome="genero" value="male" required>
+                    <label for="male">Masculino</label>
+                                <!-- other -->
+                    <input type="radio" id="other" nome="genero" value="other" required>
+                    <label for="other">Other</label>
 
-                <!-- NATURALIDADE -->
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="naturalidade" id="naturalidade" class="inputUser" required>
-                    <label for="naturalidade" class="Label_Input">Naturalidade</label>
-                </div>
-                <!--NACIONALIDADE-->
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="nacionalidade" id="nacionalidade" class="inputUser" required>
-                    <label for="nacionalidade" class="Label_Input">Nacionalidade</label>
-                </div>
-                <!-- GRAU DE INSTRUÇÃO -->
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="grau_inst" id="grau_inst" class="inputUser" required>
-                    <label for="grau_inst" class="Label_Input">Grau de instrução</label>
-                </div>
-                <!-- OCUPAÇÃO -->
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="ocupacao" id="ocupacao" class="inputUser" required>
-                    <label for="ocupacao" class="Label_Input">Ocupação</label>
-                </div>
-                <!-- ENDEREÇO -->
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="erdereco" id="erdereco" class="inputUser" required>
-                    <label for="erdereco" class="Label_Input">Endereço</label>
-                </div>
-                <!-- COMPLEMENTO -->
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="complemento" id="complemento" class="inputUser" required>
-                    <label for="complemento" class="Label_Input">Complemento</label>
-                </div>
-                <!-- TELEFONE DE CONTATO -->
-                <br><br>
-                <div class="inputbox">
-                    <input type="tel" name="phone" id="phone" class="inputUser" required>
-                    <label for="phone" class="Label_Input">Telefone de Contato</label>
-                </div>
-                <!--  ULTIMA CONSULTA -->
-                <br><br>
-                    <label for="last_appointment">Última consulta</label><br>
-                    <input type="date" name="last_appointment" id="datas" required>
-                <!-- btn -->
-                <br><br>
-                <input type="submit" name="submit" id="submit">
-            </fieldset>
-     </div>
+                    <!-- NATURALIDADE -->
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="naturalidade" id="naturalidade" class="inputUser" required>
+                        <label for="naturalidade" class="Label_Input">Naturalidade</label>
+                    </div>
+                    <!--NACIONALIDADE-->
+                    <!-- GRAU DE INSTRUÇÃO -->
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="grau_inst" id="grau_inst" class="inputUser" required>
+                        <label for="grau_inst" class="Label_Input">Grau de instrução</label>
+                    </div>
+                    <!-- OCUPAÇÃO -->
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="ocupacao" id="ocupacao" class="inputUser" required>
+                        <label for="ocupacao" class="Label_Input">Ocupação</label>
+                    </div>
+                    <!-- ENDEREÇO -->
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="erdereco" id="erdereco" class="inputUser" required>
+                        <label for="erdereco" class="Label_Input">Endereço</label>
+                    </div>
+                    <!-- COMPLEMENTO -->
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="complemento" id="complemento" class="inputUser" required>
+                        <label for="complemento" class="Label_Input">Complemento</label>
+                    </div>
+                    <!-- TELEFONE DE CONTATO -->
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="tel" name="phone" id="phone" class="inputUser" required>
+                        <label for="phone" class="Label_Input">Telefone de Contato</label>
+                    </div>
+                    <!--  ULTIMA CONSULTA -->
+                    <br><br>
+                        <label for="last_appointment">Última consulta</label><br>
+                        <input type="date" name="last_appointment" id="datas" required>
+                    <!-- btn -->
+                    <br><br>
+                    
+                </fieldset>
+            </form>
         </div>
-    </body>
+                <!-- BOX DOIS -->
+        <div class="box1">
+            <form action="">
+                <fieldset>
+                    <!-- CIRURGIA -->
+                    <legend><b>Histórico Médico Pregresso</b></legend>
+                    <br>
+                    <div class="inputBox1">
+                        <label for="cirurgia" class="Label_Input1">Cirurgias Ou Procedimentos Prévios</label>
+                        <textarea class="inputUser1" id="cirurgia" name="cirurgia"  required></textarea>
+                    </div>
+                    <br>
+                    <!-- DOENCA CRONICA -->
+                    <div class="inputBox1">
+                        <label for="doenca" class="Label_Input1">Doenças Crônicas Relatadas</label>
+                        <textarea class="inputUser1" id="doenca" name="doenca"  required></textarea>
+                    </div>
+                    <br>
+                    <!-- ALERGIA -->
+                    <div class="inputBox1">
+                        <label for="alergia" class="Label_Input1">Alergias Relatadas</label>
+                        <textarea class="inputUser1" id="alergia" name="alergia" required></textarea>
+                    </div>
+                    <br>
+                    <!-- ACIDENTES -->
+                    <div class="inputBox1">
+                        <label for="antecedentes" class="Label_Input1">Antecedentes Familiares</label>
+                        <textarea class="inputUser1" id="antecedentes" name="antecedentes"  required></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
 </html>

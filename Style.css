@@ -1,10 +1,14 @@
 body{
+    margin: 50px;
+    padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(221, 195, 205), rgb(126, 78, 133));
 }
-fieldsetf{
+fieldset{
    border: 3px solid rgb(126, 78, 133);
+   white-space: normal;
 }
+
 legend{
     border: 1px solid rgb(126, 78, 133);
     padding: 20px;
@@ -15,15 +19,15 @@ legend{
 }
 .box{
     color: white;
-    position: absolute;
-    top: 65%;
+    position: relative;
+    /* top: 65%; */
     /* posicao das box */
-    left: 25%;
-    transform: translate(-50%, -50%);
+    left: -2%;
+    /* transform: translate(-50%, -61%); */
     background-color: rgba(64, 41, 84, 0.8);
     padding: 15px;
     border-radius: 15px;
-    width: 40%;
+    width: 100%;
 }
 .inputbox{
     position: relative;
@@ -51,6 +55,10 @@ legend{
     font-size: 12px;
     color: pink;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+}
 #datas{
     border: none;
     padding: 10px;
@@ -70,4 +78,43 @@ legend{
 }
 #submit:hover{
     background-image: linear-gradient(to right, rgb(218, 161, 183), rgb(113, 42, 124));
+}
+
+/* BOX 2 */
+
+.box1{
+    color: white;
+    position: relative;
+    /* top: 50%;
+    right: 50%; */
+    /* transform: translate(180%, 5%); */
+    background-color: rgba(64, 41, 84, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+.inputBox1{
+    position: relative;
+}
+.Label_Input1{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    resize: none;
+    background-color: rgba(64, 41, 84, 0.8);
+    border-color: rgba(255, 255, 255, 0.8);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    height: 70px;
+    width: 500px;
+    overflow: auto;
+    outline: none;
+    border-collapse: collapse;
 }
