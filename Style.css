@@ -97,7 +97,7 @@ legend{
     position: relative;
 }
 .Label_Input1{
-    position: relative;
+    position: flex;
     top: 0px;
     left: 0px;
     color: white;
