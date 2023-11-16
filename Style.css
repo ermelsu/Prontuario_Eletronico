@@ -1,7 +1,7 @@
 body{
     margin: 50px;
     padding: 10px;
-    margin: auto;
+    margin: 30px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(221, 195, 205), rgb(126, 78, 133));
 }
@@ -115,7 +115,7 @@ textarea{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 15px;
     height: 70px;
-    width: 700px;
+    width: 500px;
     overflow: auto;
     outline: none;
 }
